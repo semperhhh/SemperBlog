@@ -1,0 +1,30 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: semperBlog
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://43.143.199.5:3306/blog?characterEncoding=utf-8
+    username: root
+    password: 1234
+  redis:
+    password: 1234
+    port: 6379
+    host: 43.143.199.5
+  main:
+    banner-mode: off
+  rabbitmq:
+    addresses: 192.168.61.129:5672
+    username: root
+    password: 1234
+    virtual-host: /
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    banner: false
+
+
