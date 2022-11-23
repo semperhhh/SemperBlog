@@ -1,7 +1,10 @@
 package com.zph.model;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 import javax.validation.constraints.NotBlank;
 
-
+@Data
+@TableName(value = "t_user")
 public class LoginModel {
 
     /**

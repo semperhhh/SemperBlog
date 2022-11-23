@@ -5,6 +5,7 @@
     <groupId>com.zph.semperWork</groupId>
     <artifactId>semperWork</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>semperWork</name>
     <description>semperWork</description>
 
@@ -13,5 +14,14 @@
         <groupId>com.zph.semperBlog-parent</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zph.semperModel</groupId>
+            <artifactId>semperModel</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

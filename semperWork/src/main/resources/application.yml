@@ -8,7 +8,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://43.143.199.5:3306/blog?characterEncoding=utf-8
     username: root
-    password: 1234
+    password: gamesky1995
+    hikari:
+      max-lifetime: 60000
   redis:
     password: 1234
     port: 6379
